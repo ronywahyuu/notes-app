@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* notes page */
+.notes-page {
+  padding: 20px;
+}
+
+.founded {
+  text-align: center;
+  margin-top: 50px;
+  color: gray;
+}
+
+.toggle-context {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* .form-group {
+  margin-bottom: 20px;
+} */
+
+/* dark mode */
+.dark-mode {
+  background-color: #202124;
+  color: white;
+}

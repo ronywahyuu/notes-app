@@ -1,0 +1,7 @@
+/* style for 404 not found components */
+
+.empty {
+  text-align: center;
+  margin-top: 20vh;
+  color: gray;
+}

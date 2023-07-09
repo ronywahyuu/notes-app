@@ -1,0 +1,38 @@
+.button {
+  /* padding: 15px 32px; */
+  /* margin: 10px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.button--primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: #3e8e41;
+}
+
+.button--danger {
+  background-color: #a51106;
+  border: none;
+  color: white;
+}
+
+.button--danger:hover {
+  background-color: #da190b;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,60 @@
+.note-title {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .note-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.note-title,
+.note-link {
+  color: #e85182;
+
+  text-decoration: none;
+}
+
+.note-date {
+  font-size: 1rem;
+  color: gray;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.note-body {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+
+  /* text ellipsis */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.detail-component {
+  max-width: 780px;
+  margin: 0 auto;
+  /* padding: 0 20rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.action {
+  display: flex;
+  padding: 2rem;
+  gap: 2px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
